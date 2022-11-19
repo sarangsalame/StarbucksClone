@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Coffee Company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel = "icon" href ="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png" 
+        type = "image/x-icon">
+    <script src="app.js" defer></script>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <a href="index.html"><img width="70px" height="70px"
+                        src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png"
+                        alt="main logo">
+                </a>
+
+            </div>
+            <ul class="navbar-nav-left">
+                <li><a href="https://www.starbucks.com/menu">Menu</a></li>
+                <li><a href="https://www.starbucks.com/rewards">Rewards</a></li>
+                <li><a href="https://www.starbucks.com/gift">Gift Cards</a></li>
+            </ul>
+            <ul class="navbar-nav-right">
+                <li>
+                    <a href="https://www.starbucks.com/store-locator?map=39.635307,-101.337891,5z">
+                        <img src="locationLogo.png" alt="location">
+                        <span>Find a store</span>
+                    </a>
+                </li>
+                <li>
+                    <button class="btn btn-dark-outline">Sign In</button>
+                </li>
+                <li>
+                    <button class="btn btn-dark">Join Now</button>
+                </li>
+            </ul>
+            <!-- hamburger menu  -->
+            <button class="hamburger" id="menu-btn" type="button">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- menu  -->
+    <div class="mobile-menu hidden" id="menu">
+        <ul>
+            <li><a href="https://www.starbucks.com/menu">Menu</a>
+            </li>
+            <li><a href="https://www.starbucks.com/rewards">Rewards</a></li>
+            <li><a href="https://www.starbucks.com/gift">Gift Cards</a></li>
+        </ul>
+        <div class="mobile-menu-bottom">
+            <button class="btn btn-dark-outline">Sign In</button>
+            <button class="btn btn-dark">Sign In</button>
+            <div>
+                <a href="https://www.starbucks.com/store-locator?map=39.635307,-101.337891,5z">
+                    <img src="locationLogo.png" alt="marker"> <span>find a store</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- first box -->
+    <section class="box box-a bg-primary text-center py-md">
+        <div class="box-inner">
+            <h2 class="text-xl">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </h2>
+            <p class="text-md">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, nulla? Enim incidunt
+                deserunt assumenda aliquid.
+                <a href="#">Learn More</a>
+            </p>
+        </div>
+    </section>
+    <!-- box second -->
+    <section class="box box-b bg-secondary grid-col-2">
+        <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-82008.jpg" alt="box2">
+        <div class="box-text">
+            <h2 class="text-xl">Caramel celebration</h2>
+            <p class="text-md">Our Caramel Brulée Frappuccino® blended beverage is made for holiday happiness.</p>
+            <a href="" class="btn btn-light-outline">Order Now</a>
+        </div>
+    </section>
+
+    <!-- box three -->
+    <section class="box box-c bg-secondary grid-col-2 grid-reversed">
+        <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-82009.jpg" alt="box2">
+        <div class="box-text">
+            <h2 class="text-xl">Sugar-plum joy</h2>
+            <p class="text-md">Here again, the Sugar Plum Cheese Danish delights with a cream-cheese filling and spiced
+                sugar-plum spread.</p>
+            <a href="" class="btn btn-light-outline">Order Now</a>
+        </div>
+    </section>
+    <!-- box four -->
+    <section class="box box-d bg-primary grid-col-2">
+        <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-82010.png" alt="box2">
+        <div class="box-text">
+            <h2 class="text-xl">Toasty all the way</h2>
+            <p class="text-md">The Double-Smoked Bacon, Cheddar & Egg Sandwich is a delicious protein-rich choice.</p>
+            <a href="" class="btn btn-light-outline">Order Now</a>
+        </div>
+    </section>
+
+    <!-- box f -->
+    <section class="box box-f grid-col-2">
+        <div id="img-back">
+            <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-82010.png" alt="box2">
+            <div class="bg-extra py-lg">
+                <div class="box-text">
+                    <!-- <h2 class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, esse!</h2> -->
+                    <p class="text-md">The Double-Smoked Bacon, Cheddar & Egg Sandwich is a delicious protein-rich
+                        choice.</p>
+                    <a href="" class="btn btn-dark-outline">Order Now</a>
+                </div>
+
+            </div>
+        </div>
+        <div id="img-back2">
+            <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-82010.png" alt="box2">
+            <div class="bg-primary py-lg">
+                <div class="box-text">
+                    <!-- <h2 class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, esse!</h2> -->
+                    <p class="text-md">The Double-Smoked Bacon, Cheddar & Egg Sandwich is a delicious protein-rich
+                        choice.</p>
+                    <a href="" class="btn btn-light-outline">Order Now</a>
+                </div>
+            </div>
+    </section>
+    <div class="info">
+        <p class="infoPara">
+            *Excludes taxes and gratuities. At participating stores. Some restrictions apply. 150 Stars deposited after
+            first qualifying Starbucks purchase. Flights purchased close to departure may not earn double Stars. Stars
+            may not be earned on purchases of alcohol, Starbucks Cards and Starbucks Card reloads. For details, <a
+                href="https://www.deltastarbucks.com/content/starbucks/en/terms-and-conditions.html"><u>visit
+                    deltastarbucks.com/terms</u></a>.
+        </p>
+    </div>
+    <hr>
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <div class="aboutUs footer-item-box">
+                    <h3 class="heading">About Us</h3>
+                    <ul>
+                        <li><a href="">Our Company</a> </li>
+                        <li><a href="">Our Coffee</a></li>
+                        <li><a href="">Stories and News</a> </li>
+                        <li><a href="">Starbucks Archive</a> </li>
+                        <li><a href="">Investor Relations</a> </li>
+                        <li><a href="">Customer Service</a></li>
+                    </ul>
+                </div>
+                <div class="career footer-item-box">
+                    <h3 class="heading">Career</h3>
+                    <ul>
+                        <li><a href="">Career and Values</a> </li>
+                        <li><a href="">Inclusion, Diversity and Equity</a></li>
+                        <li><a href="">College Achievements Plan</a> </li>
+                        <li><a href="">Alumini Community</a> </li>
+                        <li><a href="">U.S. Careers</a> </li>
+                        <li><a href="">International Careers</a></li>
+                    </ul>
+                </div>
+                <div class="social-impacts footer-item-box">
+                    <h3 class="heading">Social Impacts</h3>
+                    <ul>
+                        <li><a href="">People</a> </li>
+                        <li><a href="">Planet</a></li>
+                        <li><a href="">Environment and Social Impact Reporting</a> </li>
+                        
+                    </ul>
+                </div>
+                <div class="orderPickup footer-item-box">
+                    <h3 class="heading">Order and Pickup</h3>
+                    <ul>
+                        <li><a href="">Order on the App</a> </li>
+                        <li><a href="">Order on the Web</a> </li>
+                        <li><a href="">Delivery</a></li>
+                        <li><a href="">Order and Pickup Option</a> </li>
+                        <li><a href="">Explore and Find Coffee for Home</a> </li>
+                        
+                    </ul>
+                </div>
+                <div class="forBussinessPartner footer-item-box">
+                    <h3 class="heading">For Bussiness Partner</h3>
+                    <ul>
+                        <li><a href="">Landlord Support Center</a></li>
+                        <li><a href="">Suppliers</a></li>
+                        <li><a href="">Corporate and Gift Card Sales</a> </li>
+                        <li><a href="">Office And Food Service Coffee</a> </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="link">
+                <div class="link-section">
+                    <h3 onclick="show()" class="head">About us</h3>
+                    <button class="arrow"><img  src="gt.png" alt="img"></button>
+                </div>
+               <div class="items-div">
+                <ul class="list">
+                    <li><a href="">Our Company</a> </li>
+                    <li><a href="">Our Coffee</a></li>
+                    <li><a href="">Stories and News</a> </li>
+                    <li><a href="">Starbucks Archive</a> </li>
+                    <li><a href="">Investor Relations</a> </li>
+                    <li><a href="">Customer Service</a></li> 
+                </ul>
+               </div>
+                <div class="link-section">
+                    <h3 class="head">Career</h3>
+                    <button class="arrow"><img  src="gt.png" alt="img"></button>
+                </div>
+                <div class="items-div">
+                <ul class="list">
+                    <li><a href="">Career and Values</a> </li>
+                    <li><a href="">Inclusion, Diversity and Equity</a></li>
+                    <li><a href="">College Achievements Plan</a> </li>
+                    <li><a href="">Alumini Community</a> </li>
+                    <li><a href="">U.S. Careers</a> </li>
+                    <li><a href="">International Careers</a></li>
+                </ul>
+                </div>
+                <div class="link-section">
+                    <h3 class="head">Social Impacts</h3>
+                    <button class="arrow"><img  src="gt.png" alt="img"></button>
+                </div>
+                <div class="items-div">
+                <ul class="list">
+                    <li><a href="">People</a> </li>
+                    <li><a href="">Planet</a></li>
+                    <li><a href="">Environment and Social Impact Reporting</a> </li>
+                    
+                </ul>
+                </div>
+                <div class="link-section">
+                    <h3 class="head">For Bussiness Partners</h3>
+                    <button class="arrow"><img  src="gt.png" alt="img"></button>
+                </div>
+                <div class="items-div">
+                <ul class="list">
+                    <li><a href="">Landlord Support Center</a></li>
+                    <li><a href="">Suppliers</a></li>
+                    <li><a href="">Corporate and Gift Card Sales</a> </li>
+                    <li><a href="">Office And Food Service Coffee</a> </li>
+                    
+                </ul>
+                </div>
+                <div class="link-section">
+                    <h3 class="head">Order and Pickup</h3>
+                    <button class="arrow"><img  src="gt.png" alt="img"></button>
+            
+                </div>
+                <div class="items-div">
+                <ul class="list">
+                    <li><a href="">Order on the App</a> </li>
+                    <li><a href="">Order on the Web</a> </li>
+                    <li><a href="">Delivery</a></li>
+                    <li><a href="">Order and Pickup Option</a> </li>
+                    <li><a href="">Explore and Find Coffee for Home</a> </li>
+                    
+                </ul>
+                </div>
+                
+            </div>
+            <hr>
+            <div class="social">
+                <a href="https://open.spotify.com/user/starbucks"><img src="spotify.png" alt="spotify"></a>
+
+                <a
+                    href="https://www.facebook.com/checkpoint/828281030927956/?next=https%3A%2F%2Ffacebook.com%2Fstarbucks"><img
+                        src="facebook.png" alt="facebook"></a>
+
+                <a href="https://www.pinterest.com/starbucks/"><img src="pintrest.png" alt="pintrest"></a>
+
+                <a href="https://www.instagram.com/starbucks/"><img src="instagram.png" alt="instagram"></a>
+
+                <a href="https://www.youtube.com/starbucks"><img src="youtube.png" alt="youtube"></a>
+
+                <a href="https://twitter.com/starbucks/"><img src="twitter.png" alt="twitter"></a>
+
+            </div>
+            <div class="policy">
+                <ul>
+                    <li>
+                        <a href="">
+                            <!-- <span></span> -->
+                            <button>Privacy Policy</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>|</span>
+                            <button>Term Of Use</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>|</span>
+                            <button>CA Supply Chain Act</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>|</span>
+                            <button>Cookie Prefrences</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p class="copyright">© 2022 Starbucks Coffee Company. All rights reserved.
+                <cite>This is a clone created by <strong>'Sarang Salame'</strong> as a frontend project </cite>
+            </p>
+        </div>
+
+    </footer>
+
+
+
+</body>
+
+</html>
